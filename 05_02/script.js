@@ -20,6 +20,9 @@ const everydayPack = new Backpack(
 
 const main = document.querySelector(".maincontent");
 
+const backpackName = document.querySelector(".backpack__name");
+console.log("backpackLid", backpackName);
+
 const content = `
   <article class="backpack" id="everyday">
     <figure class="backpack__image">
@@ -47,5 +50,8 @@ const content = `
     </ul>
   </article>
 `;
+
+const backpackLid = document.querySelector(".backpack__name");
+console.log("backpackLid", backpackLid);
 
 main.innerHTML = content;
